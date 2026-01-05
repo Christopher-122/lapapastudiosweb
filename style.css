@@ -26,8 +26,17 @@ img {
     align-items: center;
     background-color: #eff3f4;
     padding: 130px 0 0 0;
+    flex-direction: column;
 }
-
+#out-service{
+    background-color: #000000;
+    color: yellow;
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-size:xx-large;
+    font-weight: 800;
+}
 .menu {
     position: absolute;
     top: 0;
