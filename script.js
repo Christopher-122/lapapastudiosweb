@@ -48,6 +48,17 @@ function leerDatosElemento(elemento) {
 function insertarCarrito(elemento) {
     const row = document.createElement('tr');
     row.innerHTML = `
-    
+        <td>
+            <img src="${elemento.img}" width=100 height=150px>
+        </td>   
+        <td>
+            ${elemento.titulo}
+        </td> 
+        <td>
+            ${elemento.precio}
+        </td>
+        <td>
+            <a herf="#" class="borrar" data=id="${elemento}" ></a>
+        </td>
     `;
 }
