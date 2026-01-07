@@ -58,7 +58,13 @@ function insertarCarrito(elemento) {
             ${elemento.precio}
         </td>
         <td>
-            <a herf="#" class="borrar" data=id="${elemento}" ></a>
+            <a herf="#" class="borrar" data=id="${elemento.id}" >X</a>
         </td>
     `;
+    lista.appendChild(row);
+}
+
+function eliminarElemento(e) {
+    e.preventDefault();
+    
 }
